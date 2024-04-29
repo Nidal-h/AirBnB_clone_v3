@@ -1,4 +1,4 @@
-ccccccccccccccccccccccccccccc0x05. AirBnB clone - RESTful API
+cccccccccccccccccccccccccccccc0x05. AirBnB clone - RESTful API
 Requirements
 
 Python Scripts
