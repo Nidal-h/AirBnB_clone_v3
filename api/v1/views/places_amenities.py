@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''This script contains the places_amenities view for the API.'''
 from flask import jsonify, request
-from werkzeug.exceptions import NotFound, MethodNotAllowed
+from werkzeug.exceptions import MethodNotAllowed, NotFound
 
 from api.v1.views import app_views
 from models import storage, storage_t

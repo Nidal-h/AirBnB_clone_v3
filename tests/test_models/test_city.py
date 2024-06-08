@@ -3,13 +3,16 @@
 Contains the TestCityDocs classes
 """
 
-from datetime import datetime
 import inspect
+import unittest
+from datetime import datetime
+
+import pep8
+
 import models
 from models import city
 from models.base_model import BaseModel
-import pep8
-import unittest
+
 City = city.City
 
 

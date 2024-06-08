@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''This script contains the users view for the API.'''
 from flask import jsonify, request
-from werkzeug.exceptions import NotFound, BadRequest
+from werkzeug.exceptions import BadRequest, NotFound
 
 from api.v1.views import app_views
 from models import storage

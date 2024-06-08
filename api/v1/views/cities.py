@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''This script contains the cities view for the API.'''
 from flask import jsonify, request
-from werkzeug.exceptions import NotFound, MethodNotAllowed, BadRequest
+from werkzeug.exceptions import BadRequest, MethodNotAllowed, NotFound
 
 from api.v1.views import app_views
 from models import storage, storage_t

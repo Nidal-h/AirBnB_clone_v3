@@ -3,13 +3,16 @@
 Contains the TestAmenityDocs classes
 """
 
-from datetime import datetime
 import inspect
+import unittest
+from datetime import datetime
+
+import pep8
+
 import models
 from models import amenity
 from models.base_model import BaseModel
-import pep8
-import unittest
+
 Amenity = amenity.Amenity
 
 
